@@ -22,7 +22,7 @@
     },
     {
       "_id": 555557,
-      "docType": "nif",
+      "docType": "dni",
       "docNum": "87654321Y",
       "email": "maria@example.com",
       "customerId": "11113",
@@ -72,7 +72,7 @@
     },
     {
       "_id": 5,
-      "docType": "nif",
+      "docType": "dni",
       "docNum": "12345678E",
       "email": "emma.taylor@example.com",
       "customerId": "11115",
@@ -92,7 +92,7 @@
     },
     {
       "_id": 7,
-      "docType": "nif",
+      "docType": "dni",
       "docNum": "12345678G",
       "email": "sophia.thomas@example.com",
       "customerId": "11117",
