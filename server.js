@@ -19,12 +19,12 @@ const loadDatabase = () => {
   }
 }
 
-app.get('/api/customers', (req, res) => {
+app.get('/customers', (req, res) => {
   const db = loadDatabase()
   res.json(db.customers)
 })
 
-app.get('/api/customers/:id', (req, res) => {
+app.get('/customers/:id', (req, res) => {
   const db = loadDatabase()
   const { id } = req.params
 
