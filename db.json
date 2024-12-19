@@ -29,6 +29,106 @@
       "givenName": "Maria",
       "familyName1": "González",
       "phone": "644987654"
+    },
+    {
+      "_id": 1,
+      "docType": "nif",
+      "docNum": "12345678A",
+      "email": "john.doe@example.com",
+      "customerId": "11111",
+      "givenName": "John",
+      "familyName1": "Doe",
+      "phone": "600000001"
+    },
+    {
+      "_id": 2,
+      "docType": "nif",
+      "docNum": "12345678B",
+      "email": "jane.smith@example.com",
+      "customerId": "11112",
+      "givenName": "Jane",
+      "familyName1": "Smith",
+      "phone": "600000002"
+    },
+    {
+      "_id": 3,
+      "docType": "nif",
+      "docNum": "12345678C",
+      "email": "emily.johnson@example.com",
+      "customerId": "11113",
+      "givenName": "Emily",
+      "familyName1": "Johnson",
+      "phone": "600000003"
+    },
+    {
+      "_id": 4,
+      "docType": "nif",
+      "docNum": "12345678D",
+      "email": "michael.brown@example.com",
+      "customerId": "11114",
+      "givenName": "Michael",
+      "familyName1": "Brown",
+      "phone": "600000004"
+    },
+    {
+      "_id": 5,
+      "docType": "nif",
+      "docNum": "12345678E",
+      "email": "emma.taylor@example.com",
+      "customerId": "11115",
+      "givenName": "Emma",
+      "familyName1": "Taylor",
+      "phone": "600000005"
+    },
+    {
+      "_id": 6,
+      "docType": "nif",
+      "docNum": "12345678F",
+      "email": "david.anderson@example.com",
+      "customerId": "11116",
+      "givenName": "David",
+      "familyName1": "Anderson",
+      "phone": "600000006"
+    },
+    {
+      "_id": 7,
+      "docType": "nif",
+      "docNum": "12345678G",
+      "email": "sophia.thomas@example.com",
+      "customerId": "11117",
+      "givenName": "Sophia",
+      "familyName1": "Thomas",
+      "phone": "600000007"
+    },
+    {
+      "_id": 8,
+      "docType": "nif",
+      "docNum": "12345678H",
+      "email": "oliver.jackson@example.com",
+      "customerId": "11118",
+      "givenName": "Oliver",
+      "familyName1": "Jackson",
+      "phone": "600000008"
+    },
+    {
+      "_id": 9,
+      "docType": "nif",
+      "docNum": "12345678I",
+      "email": "ava.white@example.com",
+      "customerId": "11119",
+      "givenName": "Ava",
+      "familyName1": "White",
+      "phone": "600000009"
+    },
+    {
+      "_id": 10,
+      "docType": "nif",
+      "docNum": "12345678J",
+      "email": "lucas.harris@example.com",
+      "customerId": "11120",
+      "givenName": "Lucas",
+      "familyName1": "Harris",
+      "phone": "600000010"
     }
   ],
   "products": [
@@ -71,6 +171,36 @@
       "numeracioTerminal": 677890123,
       "soldAt": "2022-03-10 12:00:00",
       "customerId": "11113"
+    },
+    {
+      "_id": 101,
+      "productName": "FIBRA 100MB",
+      "mbSpeed": 100,
+      "gbData": null,
+      "productTypeName": "ftth",
+      "numeracioTerminal": 933000001,
+      "soldAt": "2022-01-01 12:00:00",
+      "customerId": "11111"
+    },
+    {
+      "_id": 102,
+      "productName": "MÓVIL 50GB",
+      "mbSpeed": null,
+      "gbData": 50,
+      "productTypeName": "4G",
+      "numeracioTerminal": 933000002,
+      "soldAt": "2022-02-01 14:00:00",
+      "customerId": "11111"
+    },
+    {
+      "_id": 103,
+      "productName": "MÓVIL 100GB",
+      "mbSpeed": null,
+      "gbData": 100,
+      "productTypeName": "4G",
+      "numeracioTerminal": 933000003,
+      "soldAt": "2022-03-01 16:00:00",
+      "customerId": "11112"
     }
   ]
 }
