@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "serve:api": "node api/server.js",
+    "serve:api": "node server.js",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "node api/server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^1.7.9",
